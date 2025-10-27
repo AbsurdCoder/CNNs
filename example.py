@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 
 # Import all model creation functions
-# Assuming all modules are in the same directory or properly installed
+# Note:  Names are different
 from lenet import create_lenet
 from alexnet import create_alexnet
 from vggnet import create_vgg16
