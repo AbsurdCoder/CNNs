@@ -1,0 +1,46 @@
+# CNN Models Library Requirements
+# Python 3.8+
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+
+# Performance Analysis
+thop>=0.1.1-2209072238  # For accurate FLOP counting
+ptflops>=0.7.0  # Alternative FLOP counter
+torchinfo>=1.8.0  # Model summary
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.14.0
+pandas>=1.5.0
+
+# Model Optimization
+torch-pruning>=1.2.0  # For model pruning
+onnx>=1.13.0  # For model export
+onnxruntime>=1.14.0  # For ONNX inference
+
+# Training Utilities
+tensorboard>=2.12.0
+tqdm>=4.65.0
+wandb>=0.14.0  # Optional: for experiment tracking
+
+# Model Serving (Optional)
+# fastapi>=0.95.0
+# uvicorn>=0.21.0
+# python-multipart>=0.0.6
+
+# Testing
+pytest>=7.2.0
+pytest-cov>=4.0.0
+
+# Utilities
+pyyaml>=6.0
+pillow>=9.4.0
+scikit-learn>=1.2.0
+
+# Documentation (Optional)
+# sphinx>=6.1.0
+# sphinx-rtd-theme>=1.2.0
